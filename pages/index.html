@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <img class="logo" src="../assets/icons/logo.png" alt="Logo">
+    <title>Headpfit</title>
+</head>
+<body>
+    <nav class="menu">
+        <div class="links">
+            <a href="#" onclick="carregarPagina('home')">Início</a>
+            <a href="#" onclick="carregarPagina('exercicios')">Exercícios</a>
+            <a href="#" onclick="carregarPagina('montar-treino')">Monta seu treino</a>
+            <a href="#" onclick="carregarPagina('contato')">Contrate um Personal Trainer</a>
+        </div>
+    </nav>
+
+    <main id="paginas">
+        <section class="index">
+        </section>
+    </main>
+</body>
+<footer>
+    <p>&copy; 2026 Headpfit. Todos os direitos reservados.</p>
+</footer>
+<script src="../js/scripts.js"></script>
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            carregarPagina('home');
+        });
+    </script>
+</html>
